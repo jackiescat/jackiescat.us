@@ -6,7 +6,7 @@
     "deploy": "gh-pages-deploy",
     "build": "gulp dist"
   },
-  "gh--pages-deploy": {
+  "gh-pages-deploy": {
     "staticpath": "dist",
     "cname": "jackiescat.us",
     "prep": [
