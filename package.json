@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "deploy": "gh-pages-deploy",
-    "build": "gulp dist"
+    "build": "gulp dist",
+    "cleansrc": "rm -rf README.md package.json src node_modules gulpfile.js .travis.yml"
   },
   "gh-pages-deploy": {
     "staticpath": "dist",
@@ -12,6 +13,7 @@
     "prep": [
       "build"
     ],
+    "post": [ "cleansrc" ],
     "noprompt": true
   },
   "dependencies": {
