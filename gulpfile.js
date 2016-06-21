@@ -1,7 +1,6 @@
 const gulp   = require('gulp')
 const sass   = require('gulp-sass')
 const cssmin = require('gulp-cssmin')
-const ugly   = require('gulp-uglify')
 const prefix = require('gulp-autoprefixer')
 const sync   = require('browser-sync').create()
 const del    = require('del')
