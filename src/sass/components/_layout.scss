@@ -16,7 +16,21 @@ section.banner {
     align-items: center;
     flex-direction: column;
     background: $primary;
-    animation: flicker 30s infinite;
+    animation: flicker 100s infinite;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        content: '';
+        background: url('../images/noise.jpg');
+        background-size: 400px;
+        opacity: .03;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
 }
 
 @keyframes flicker {
