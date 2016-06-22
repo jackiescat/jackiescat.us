@@ -53,6 +53,10 @@ section.copy {
     color: $copy;
     margin: 0 auto;
 
+    @media screen and (max-width: 600px) {
+        padding: 24px;
+    }
+
     p {
         margin: 0 0 20px 0;
         font-size: 16px;
