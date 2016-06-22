@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    color: $secondary;
+}
+
+section.banner {
+    width: 100%;
+    min-width: 800px;
+    height: 830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: $primary;
+}
+
+section.copy {
+    width: 100%;
+    max-width: 900px;
+    padding: 60px 20px;
+    color: $copy;
+    margin: 0 auto;
+
+    p {
+        margin: 0 0 20px 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
