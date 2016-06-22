@@ -5,7 +5,7 @@
   "scripts": {
     "deploy": "gh-pages-deploy",
     "build": "gulp dist",
-    "cleansrc": "rm -rf README.md package.json src node_modules gulpfile.js .travis.yml"
+    "cleansrc": "rm -rf README.md package.json src gulpfile.js .travis.yml"
   },
   "gh-pages-deploy": {
     "staticpath": "dist",
