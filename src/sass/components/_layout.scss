@@ -20,6 +20,10 @@ section.banner {
     position: relative;
     padding: 0 20px;
 
+    @media screen and (max-width: 600px) {
+        height: 630px;
+    }
+
     &::after {
         content: '';
         background: url('../images/noise.jpg');
