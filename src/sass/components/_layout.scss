@@ -16,6 +16,16 @@ section.banner {
     align-items: center;
     flex-direction: column;
     background: $primary;
+    animation: flicker 30s infinite;
+}
+
+@keyframes flicker {
+  0% { filter: invert(0); }
+  40% { filter: invert(0); }
+  41% { filter: invert(100%); }
+  69% { filter: invert(100%); }
+  70% { filter: invert(0); }
+  100% { filter: invert(0); }
 }
 
 section.copy {
