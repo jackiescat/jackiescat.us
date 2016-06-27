@@ -106,7 +106,10 @@ var quotes = [
     "Demons are like obedient dogs; they come when they are called.",
     "The world outside had its own rules, and those rules were not human.",
     "The charm of horror only tempts the strong.",
-    "Reality is shaped by the forces that destroy it."
+    "Reality is shaped by the forces that destroy it.",
+    "Do what thou wilt shall be the whole of the law",
+    "I've killed no one. I've ordered no one to be killed. These children who come to you with their knives, they're your children. I didn't teach them, you did.",
+    "She isn't missing. She's at the farm right now."
 ]
 
 var randomNum = Math.floor((Math.random() * quotes.length) + 1);
