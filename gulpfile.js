@@ -54,6 +54,7 @@ gulp.task('sync', () => {
   })
   gulp.watch(paths.sass,['css']).on('change', sync.reload)
   gulp.watch(paths.html,['html']).on('change', sync.reload)
+  gulp.watch(paths.images,['images']).on('change', sync.reload)
 })
 
 gulp.task('default', ['sync','css', 'compress', 'images', 'html'])
